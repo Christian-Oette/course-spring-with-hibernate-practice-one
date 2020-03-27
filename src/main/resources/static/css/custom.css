@@ -1,0 +1,20 @@
+.jumbotron {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2825b+0,e55b2b+47,e55b2b+47,f07146+100 */
+    background: #f2825b; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #f2825b 0%, #e55b2b 47%, #e55b2b 47%, #f07146 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #f2825b 0%,#e55b2b 47%,#e55b2b 47%,#f07146 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #f2825b 0%,#e55b2b 47%,#e55b2b 47%,#f07146 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2825b', endColorstr='#f07146',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color: azure;
+    font-weight: bold;
+}
+
+body {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eeeeee+0,eeeeee+100;Grey+Flat */
+    background: #eeeeee; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #eeeeee 0%, #eeeeee 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #eeeeee 0%,#eeeeee 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #eeeeee 0%,#eeeeee 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    font-family: Roboto, sans-serif;
+}
