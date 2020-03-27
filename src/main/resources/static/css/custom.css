@@ -18,3 +18,16 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     font-family: Roboto, sans-serif;
 }
+
+.player-item {
+    font-size: 1.5em;
+}
+
+.looser-item {
+    font-size: 2em;
+}
+
+.start-button-animated-settings {
+    animation-duration: 1s;
+    animation-delay: 0.1s;
+}
