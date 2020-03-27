@@ -34,6 +34,7 @@ public class GameService {
         }
     }
 
+    @Transactional
     public Optional<GameModelData> loadGame(Integer gameId) {
         Optional<Game> gameOptional = gameRepository.findById(gameId);
         return gameOptional.map(GameModelData::new);

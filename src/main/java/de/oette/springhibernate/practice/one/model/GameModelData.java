@@ -9,17 +9,16 @@ public class GameModelData {
 
     public final Integer id;
     public final String looser;
-    public final Set<String> playerNames;
+    public final Set<String> playerNames = new HashSet<>();
 
     public GameModelData(Game game) {
         this.id = game.getId();
         this.looser = game.getLooser();
-        this.playerNames = game.getPlayers();
+        this.playerNames.addAll(game.getPlayers());
     }
 
     public GameModelData() {
         this.id = null;
         this.looser = null;
-        this.playerNames = new HashSet<>();
     }
 }
