@@ -9,7 +9,9 @@
         <div class="jumbotron">
             <div class="container">
                 <H1>Wer bezahlt die Rechnung?</H1>
-                <button class="btn btn-dark">Spiel starten</button>
+                <form th:method="post" th:action="@{/game/start-new}">
+                    <button class="btn btn-dark">Neues Spiel starten</button>
+                </form>
             </div>
         </div>
     </body>
